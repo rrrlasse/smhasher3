@@ -50,7 +50,7 @@ set(HASH_SRC_FILES
   hashes/rainbow.cpp
   hashes/wyhash.cpp
   hashes/aquahash.cpp
-  hashes/aesnihash-peterrk.cpp
+#  hashes/aesnihash-peterrk.cpp compile error
   hashes/md5.cpp
   hashes/murmurhash3.cpp
   hashes/mx3.cpp
@@ -91,4 +91,5 @@ set(HASH_SRC_FILES
   hashes/xmsx.cpp
   hashes/gxhash.cpp
   hashes/rust-rapidhash.cpp
+  hashes/intrinhash.cpp
 )

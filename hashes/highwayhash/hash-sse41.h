@@ -39,11 +39,7 @@ typedef struct state_struct {
 
 void dump_state( const highwayhash_state_t * s ) {
     return;
-    printf("\tv0   %016llx %016llx %016llx %016llx\n", s->v0L[0]  , s->v0L[1]  , s->v0H[0]  , s->v0H[1]  );
-    printf("\tv1   %016llx %016llx %016llx %016llx\n", s->v1L[0]  , s->v1L[1]  , s->v1H[0]  , s->v1H[1]  );
-    printf("\tmul0 %016llx %016llx %016llx %016llx\n", s->mul0L[0], s->mul0L[1], s->mul0H[0], s->mul0H[1]);
-    printf("\tmul1 %016llx %016llx %016llx %016llx\n", s->mul1L[0], s->mul1L[1], s->mul1H[0], s->mul1H[1]);
-    printf("\n");
+
 }
 
 alignas(32) static thread_local highwayhash_state_t seeded_state;
